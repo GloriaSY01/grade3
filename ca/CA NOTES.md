@@ -60,14 +60,10 @@ basic element：固态晶体管、集成电路(ICs)
 #### **CPU performance**
 
 课堂主要关注**CPI**（caches，parallelism）
-$$
-CPI=cycles/instructions
-$$
 
-$$
+CPI=cycles/instructions
 
 IPC=1/CPI
-$$
 
 如何衡量CPI？相关概念了解
 
