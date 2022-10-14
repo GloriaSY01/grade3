@@ -1,0 +1,84 @@
+using 'using'	 [StartOfLine]	Loc=<fabnacci.cpp:2:1>
+namespace 'namespace'	 [LeadingSpace]	Loc=<fabnacci.cpp:2:7>
+identifier 'std'	 [LeadingSpace]	Loc=<fabnacci.cpp:2:17>
+semi ';'		Loc=<fabnacci.cpp:2:20>
+int 'int'	 [StartOfLine]	Loc=<fabnacci.cpp:4:1>
+identifier 'main'	 [LeadingSpace]	Loc=<fabnacci.cpp:4:5>
+l_paren '('		Loc=<fabnacci.cpp:4:9>
+r_paren ')'		Loc=<fabnacci.cpp:4:10>
+l_brace '{'	 [StartOfLine]	Loc=<fabnacci.cpp:5:1>
+int 'int'	 [StartOfLine] [LeadingSpace]	Loc=<fabnacci.cpp:7:5>
+identifier 'a'	 [LeadingSpace]	Loc=<fabnacci.cpp:7:9>
+comma ','		Loc=<fabnacci.cpp:7:10>
+identifier 'b'	 [LeadingSpace]	Loc=<fabnacci.cpp:7:12>
+comma ','		Loc=<fabnacci.cpp:7:13>
+identifier 'i'	 [LeadingSpace]	Loc=<fabnacci.cpp:7:15>
+comma ','		Loc=<fabnacci.cpp:7:16>
+identifier 't'	 [LeadingSpace]	Loc=<fabnacci.cpp:7:18>
+comma ','		Loc=<fabnacci.cpp:7:19>
+identifier 'n'	 [LeadingSpace]	Loc=<fabnacci.cpp:7:21>
+semi ';'		Loc=<fabnacci.cpp:7:22>
+identifier 'a'	 [StartOfLine] [LeadingSpace]	Loc=<fabnacci.cpp:8:5>
+equal '='	 [LeadingSpace]	Loc=<fabnacci.cpp:8:7>
+numeric_constant '0'	 [LeadingSpace]	Loc=<fabnacci.cpp:8:9>
+semi ';'		Loc=<fabnacci.cpp:8:10>
+identifier 'b'	 [StartOfLine] [LeadingSpace]	Loc=<fabnacci.cpp:9:5>
+equal '='	 [LeadingSpace]	Loc=<fabnacci.cpp:9:7>
+numeric_constant '1'	 [LeadingSpace]	Loc=<fabnacci.cpp:9:9>
+semi ';'		Loc=<fabnacci.cpp:9:10>
+identifier 'i'	 [StartOfLine] [LeadingSpace]	Loc=<fabnacci.cpp:10:5>
+equal '='	 [LeadingSpace]	Loc=<fabnacci.cpp:10:7>
+numeric_constant '1'	 [LeadingSpace]	Loc=<fabnacci.cpp:10:9>
+semi ';'		Loc=<fabnacci.cpp:10:10>
+identifier 'cin'	 [StartOfLine] [LeadingSpace]	Loc=<fabnacci.cpp:11:5>
+greatergreater '>>'	 [LeadingSpace]	Loc=<fabnacci.cpp:11:9>
+identifier 'n'	 [LeadingSpace]	Loc=<fabnacci.cpp:11:12>
+semi ';'		Loc=<fabnacci.cpp:11:13>
+identifier 'cout'	 [StartOfLine] [LeadingSpace]	Loc=<fabnacci.cpp:12:5>
+lessless '<<'	 [LeadingSpace]	Loc=<fabnacci.cpp:12:10>
+identifier 'a'	 [LeadingSpace]	Loc=<fabnacci.cpp:12:13>
+lessless '<<'	 [LeadingSpace]	Loc=<fabnacci.cpp:12:15>
+identifier 'endl'	 [LeadingSpace]	Loc=<fabnacci.cpp:12:18>
+semi ';'		Loc=<fabnacci.cpp:12:22>
+identifier 'cout'	 [StartOfLine] [LeadingSpace]	Loc=<fabnacci.cpp:13:5>
+lessless '<<'	 [LeadingSpace]	Loc=<fabnacci.cpp:13:10>
+identifier 'b'	 [LeadingSpace]	Loc=<fabnacci.cpp:13:13>
+lessless '<<'	 [LeadingSpace]	Loc=<fabnacci.cpp:13:15>
+identifier 'endl'	 [LeadingSpace]	Loc=<fabnacci.cpp:13:18>
+semi ';'		Loc=<fabnacci.cpp:13:22>
+while 'while'	 [StartOfLine] [LeadingSpace]	Loc=<fabnacci.cpp:14:5>
+l_paren '('	 [LeadingSpace]	Loc=<fabnacci.cpp:14:11>
+identifier 'i'		Loc=<fabnacci.cpp:14:12>
+less '<'	 [LeadingSpace]	Loc=<fabnacci.cpp:14:14>
+identifier 'n'	 [LeadingSpace]	Loc=<fabnacci.cpp:14:16>
+r_paren ')'		Loc=<fabnacci.cpp:14:17>
+l_brace '{'	 [StartOfLine] [LeadingSpace]	Loc=<fabnacci.cpp:15:5>
+identifier 't'	 [StartOfLine] [LeadingSpace]	Loc=<fabnacci.cpp:16:5>
+equal '='	 [LeadingSpace]	Loc=<fabnacci.cpp:16:7>
+identifier 'b'	 [LeadingSpace]	Loc=<fabnacci.cpp:16:9>
+semi ';'		Loc=<fabnacci.cpp:16:10>
+identifier 'b'	 [StartOfLine] [LeadingSpace]	Loc=<fabnacci.cpp:17:5>
+equal '='	 [LeadingSpace]	Loc=<fabnacci.cpp:17:7>
+identifier 'a'	 [LeadingSpace]	Loc=<fabnacci.cpp:17:9>
+plus '+'	 [LeadingSpace]	Loc=<fabnacci.cpp:17:11>
+identifier 'b'	 [LeadingSpace]	Loc=<fabnacci.cpp:17:13>
+semi ';'		Loc=<fabnacci.cpp:17:14>
+identifier 'cout'	 [StartOfLine] [LeadingSpace]	Loc=<fabnacci.cpp:18:5>
+lessless '<<'	 [LeadingSpace]	Loc=<fabnacci.cpp:18:10>
+identifier 'b'	 [LeadingSpace]	Loc=<fabnacci.cpp:18:13>
+lessless '<<'	 [LeadingSpace]	Loc=<fabnacci.cpp:18:15>
+identifier 'endl'	 [LeadingSpace]	Loc=<fabnacci.cpp:18:18>
+semi ';'		Loc=<fabnacci.cpp:18:22>
+identifier 'a'	 [StartOfLine] [LeadingSpace]	Loc=<fabnacci.cpp:19:5>
+equal '='	 [LeadingSpace]	Loc=<fabnacci.cpp:19:7>
+identifier 't'	 [LeadingSpace]	Loc=<fabnacci.cpp:19:9>
+semi ';'		Loc=<fabnacci.cpp:19:10>
+identifier 'i'	 [StartOfLine] [LeadingSpace]	Loc=<fabnacci.cpp:20:5>
+equal '='	 [LeadingSpace]	Loc=<fabnacci.cpp:20:7>
+identifier 'i'	 [LeadingSpace]	Loc=<fabnacci.cpp:20:9>
+plus '+'	 [LeadingSpace]	Loc=<fabnacci.cpp:20:11>
+numeric_constant '1'	 [LeadingSpace]	Loc=<fabnacci.cpp:20:13>
+semi ';'		Loc=<fabnacci.cpp:20:14>
+r_brace '}'	 [StartOfLine] [LeadingSpace]	Loc=<fabnacci.cpp:21:5>
+r_brace '}'	 [StartOfLine]	Loc=<fabnacci.cpp:22:1>
+eof ''		Loc=<fabnacci.cpp:22:2>

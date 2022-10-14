@@ -1,0 +1,941 @@
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/basic_ios.h', 
+                   Line: 50, Column: 2 }
+Function:        _ZSt13__check_facetISt5ctypeIcEERKT_PS3_
+Args:
+  - Callee:          _ZSt16__throw_bad_castv
+  - String:          ' will not be inlined into '
+  - Caller:          _ZSt13__check_facetISt5ctypeIcEERKT_PS3_
+    DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/basic_ios.h', 
+                       Line: 48, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/basic_ios.h', 
+                   Line: 50, Column: 2 }
+Function:        _ZSt13__check_facetISt5ctypeIcEERKT_PS3_
+Args:
+  - Callee:          _ZSt16__throw_bad_castv
+  - String:          ' will not be inlined into '
+  - Caller:          _ZSt13__check_facetISt5ctypeIcEERKT_PS3_
+    DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/basic_ios.h', 
+                       Line: 48, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/locale_facets.h', 
+                   Line: 879, Column: 8 }
+Function:        _ZNKSt5ctypeIcE5widenEc
+Args:
+  - Callee:          _ZNKSt5ctypeIcE13_M_widen_initEv
+  - String:          ' will not be inlined into '
+  - Caller:          _ZNKSt5ctypeIcE5widenEc
+    DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/locale_facets.h', 
+                       Line: 876, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/locale_facets.h', 
+                   Line: 879, Column: 8 }
+Function:        _ZNKSt5ctypeIcE5widenEc
+Args:
+  - Callee:          _ZNKSt5ctypeIcE13_M_widen_initEv
+  - String:          ' will not be inlined into '
+  - Caller:          _ZNKSt5ctypeIcE5widenEc
+    DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/locale_facets.h', 
+                       Line: 876, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/basic_ios.h', 
+                   Line: 450, Column: 16 }
+Function:        _ZNKSt9basic_iosIcSt11char_traitsIcEE5widenEc
+Args:
+  - String:          ''''
+  - Callee:          _ZSt13__check_facetISt5ctypeIcEERKT_PS3_
+    DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/basic_ios.h', 
+                       Line: 48, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          _ZNKSt9basic_iosIcSt11char_traitsIcEE5widenEc
+    DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/basic_ios.h', 
+                       Line: 450, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '5'
+  - String:          ', threshold='
+  - Threshold:       '325'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          widen
+  - String:          ':'
+  - Line:            '1'
+  - String:          ':'
+  - Column:          '16'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/basic_ios.h', 
+                   Line: 450, Column: 40 }
+Function:        _ZNKSt9basic_iosIcSt11char_traitsIcEE5widenEc
+Args:
+  - String:          ''''
+  - Callee:          _ZNKSt5ctypeIcE5widenEc
+    DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/locale_facets.h', 
+                       Line: 876, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          _ZNKSt9basic_iosIcSt11char_traitsIcEE5widenEc
+    DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/basic_ios.h', 
+                       Line: 450, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '45'
+  - String:          ', threshold='
+  - Threshold:       '225'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          widen
+  - String:          ':'
+  - Line:            '1'
+  - String:          ':'
+  - Column:          '40'
+  - String:          ';'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ostream', 
+                   Line: 707, Column: 19 }
+Function:        _ZSt5flushIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_
+Args:
+  - Callee:          _ZNSo5flushEv
+  - String:          ' will not be inlined into '
+  - Caller:          _ZSt5flushIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_
+    DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ostream', 
+                       Line: 707, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ostream', 
+                   Line: 707, Column: 19 }
+Function:        _ZSt5flushIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_
+Args:
+  - Callee:          _ZNSo5flushEv
+  - String:          ' will not be inlined into '
+  - Caller:          _ZSt5flushIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_
+    DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ostream', 
+                       Line: 707, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ostream', 
+                   Line: 685, Column: 25 }
+Function:        _ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_
+Args:
+  - Callee:          _ZNSo3putEc
+  - String:          ' will not be inlined into '
+  - Caller:          _ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_
+    DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ostream', 
+                       Line: 685, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ostream', 
+                   Line: 685, Column: 25 }
+Function:        _ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_
+Args:
+  - Callee:          _ZNSo3putEc
+  - String:          ' will not be inlined into '
+  - Caller:          _ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_
+    DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ostream', 
+                       Line: 685, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ostream', 
+                   Line: 685, Column: 34 }
+Function:        _ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_
+Args:
+  - String:          ''''
+  - Callee:          _ZNKSt9basic_iosIcSt11char_traitsIcEE5widenEc
+  - String:          ''' inlined into '''
+  - Caller:          _ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_
+    DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ostream', 
+                       Line: 685, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '85'
+  - String:          ', threshold='
+  - Threshold:       '225'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          'endl<char, std::char_traits<char> >'
+  - String:          ':'
+  - Line:            '1'
+  - String:          ':'
+  - Column:          '34'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ostream', 
+                   Line: 685, Column: 14 }
+Function:        _ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_
+Args:
+  - String:          ''''
+  - Callee:          _ZSt5flushIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_
+  - String:          ''' inlined into '''
+  - Caller:          _ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_
+    DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ostream', 
+                       Line: 685, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '0'
+  - String:          ', threshold='
+  - Threshold:       '487'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          'endl<char, std::char_traits<char> >'
+  - String:          ':'
+  - Line:            '1'
+  - String:          ':'
+  - Column:          '14'
+  - String:          ';'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: fabnacci.cpp, Line: 11, Column: 9 }
+Function:        main
+Args:
+  - Callee:          _ZNSirsERi
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: fabnacci.cpp, Line: 5, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: fabnacci.cpp, Line: 12, Column: 10 }
+Function:        main
+Args:
+  - Callee:          _ZNSolsEi
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: fabnacci.cpp, Line: 5, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: fabnacci.cpp, Line: 13, Column: 10 }
+Function:        main
+Args:
+  - Callee:          _ZNSolsEi
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: fabnacci.cpp, Line: 5, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: fabnacci.cpp, Line: 18, Column: 10 }
+Function:        main
+Args:
+  - Callee:          _ZNSolsEi
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: fabnacci.cpp, Line: 5, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: fabnacci.cpp, Line: 11, Column: 9 }
+Function:        main
+Args:
+  - Callee:          _ZNSirsERi
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: fabnacci.cpp, Line: 5, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: fabnacci.cpp, Line: 12, Column: 10 }
+Function:        main
+Args:
+  - Callee:          _ZNSolsEi
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: fabnacci.cpp, Line: 5, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: fabnacci.cpp, Line: 13, Column: 10 }
+Function:        main
+Args:
+  - Callee:          _ZNSolsEi
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: fabnacci.cpp, Line: 5, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: fabnacci.cpp, Line: 18, Column: 10 }
+Function:        main
+Args:
+  - Callee:          _ZNSolsEi
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: fabnacci.cpp, Line: 5, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: fabnacci.cpp, Line: 12, Column: 15 }
+Function:        main
+Args:
+  - String:          ''''
+  - Callee:          _ZNSolsEPFRSoS_E
+    DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ostream', 
+                       Line: 109, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          main
+    DebugLoc:        { File: fabnacci.cpp, Line: 5, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-180'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          main
+  - String:          ':'
+  - Line:            '8'
+  - String:          ':'
+  - Column:          '15'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: fabnacci.cpp, Line: 13, Column: 15 }
+Function:        main
+Args:
+  - String:          ''''
+  - Callee:          _ZNSolsEPFRSoS_E
+    DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ostream', 
+                       Line: 109, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          main
+    DebugLoc:        { File: fabnacci.cpp, Line: 5, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-180'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          main
+  - String:          ':'
+  - Line:            '9'
+  - String:          ':'
+  - Column:          '15'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: fabnacci.cpp, Line: 18, Column: 15 }
+Function:        main
+Args:
+  - String:          ''''
+  - Callee:          _ZNSolsEPFRSoS_E
+  - String:          ''' inlined into '''
+  - Caller:          main
+    DebugLoc:        { File: fabnacci.cpp, Line: 5, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-180'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          main
+  - String:          ':'
+  - Line:            '14'
+  - String:          ':'
+  - Column:          '15'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ostream', 
+                   Line: 113, Column: 9 }
+Function:        main
+Args:
+  - String:          ''''
+  - Callee:          _ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_
+    DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ostream', 
+                       Line: 685, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          main
+    DebugLoc:        { File: fabnacci.cpp, Line: 5, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '175'
+  - String:          ', threshold='
+  - Threshold:       '325'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          'operator<<'
+  - String:          ':'
+  - Line:            '5'
+  - String:          ':'
+  - Column:          '9'
+  - String:          ' @ '
+  - String:          main
+  - String:          ':'
+  - Line:            '8'
+  - String:          ':'
+  - Column:          '15'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ostream', 
+                   Line: 113, Column: 9 }
+Function:        main
+Args:
+  - String:          ''''
+  - Callee:          _ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_
+    DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ostream', 
+                       Line: 685, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          main
+    DebugLoc:        { File: fabnacci.cpp, Line: 5, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '175'
+  - String:          ', threshold='
+  - Threshold:       '325'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          'operator<<'
+  - String:          ':'
+  - Line:            '5'
+  - String:          ':'
+  - Column:          '9'
+  - String:          ' @ '
+  - String:          main
+  - String:          ':'
+  - Line:            '9'
+  - String:          ':'
+  - Column:          '15'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ostream', 
+                   Line: 113, Column: 9 }
+Function:        main
+Args:
+  - String:          ''''
+  - Callee:          _ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_
+  - String:          ''' inlined into '''
+  - Caller:          main
+    DebugLoc:        { File: fabnacci.cpp, Line: 5, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '175'
+  - String:          ', threshold='
+  - Threshold:       '325'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          'operator<<'
+  - String:          ':'
+  - Line:            '5'
+  - String:          ':'
+  - Column:          '9'
+  - String:          ' @ '
+  - String:          main
+  - String:          ':'
+  - Line:            '14'
+  - String:          ':'
+  - Column:          '15'
+  - String:          ';'
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: fabnacci.cpp, Line: 14, Column: 16 }
+Function:        main
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: fabnacci.cpp, Line: 14, Column: 16 }
+Function:        main
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/iostream', 
+                   Line: 74, Column: 25 }
+Function:        __cxx_global_var_init
+Args:
+  - Callee:          _ZNSt8ios_base4InitC1Ev
+  - String:          ' will not be inlined into '
+  - Caller:          __cxx_global_var_init
+    DebugLoc:        { File: fabnacci.cpp, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: fabnacci.cpp, Line: 0, Column: 0 }
+Function:        __cxx_global_var_init
+Args:
+  - Callee:          __cxa_atexit
+  - String:          ' will not be inlined into '
+  - Caller:          __cxx_global_var_init
+    DebugLoc:        { File: fabnacci.cpp, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/iostream', 
+                   Line: 74, Column: 25 }
+Function:        __cxx_global_var_init
+Args:
+  - Callee:          _ZNSt8ios_base4InitC1Ev
+  - String:          ' will not be inlined into '
+  - Caller:          __cxx_global_var_init
+    DebugLoc:        { File: fabnacci.cpp, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: fabnacci.cpp, Line: 0, Column: 0 }
+Function:        __cxx_global_var_init
+Args:
+  - Callee:          __cxa_atexit
+  - String:          ' will not be inlined into '
+  - Caller:          __cxx_global_var_init
+    DebugLoc:        { File: fabnacci.cpp, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: fabnacci.cpp, Line: 0, Column: 0 }
+Function:        _GLOBAL__sub_I_fabnacci.cpp
+Args:
+  - String:          ''''
+  - Callee:          __cxx_global_var_init
+  - String:          ''' inlined into '''
+  - Caller:          _GLOBAL__sub_I_fabnacci.cpp
+    DebugLoc:        { File: fabnacci.cpp, Line: 0, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-14950'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          _GLOBAL__sub_I_fabnacci.cpp
+  - String:          ':'
+  - Line:            '0'
+  - String:          ':'
+  - Column:          '0'
+  - String:          ';'
+...
+--- !Missed
+Pass:            loop-vectorize
+Name:            MissedDetails
+DebugLoc:        { File: fabnacci.cpp, Line: 14, Column: 5 }
+Function:        main
+Args:
+  - String:          loop not vectorized
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: fabnacci.cpp, Line: 14, Column: 16 }
+Function:        main
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: fabnacci.cpp, Line: 14, Column: 5 }
+Function:        main
+Args:
+  - NumVRCopies:     '3'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '4.799846e+01'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: fabnacci.cpp, Line: 4, Column: 1 }
+Function:        main
+Args:
+  - NumVRCopies:     '3'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '4.799846e+01'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: fabnacci.cpp, Line: 5, Column: 0 }
+Function:        main
+Args:
+  - NumStackBytes:   '56'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: fabnacci.cpp, Line: 11, Column: 9 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '19'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/locale_facets.h', 
+                   Line: 877, Column: 6 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/locale_facets.h', 
+                   Line: 878, Column: 11 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/locale_facets.h', 
+                   Line: 879, Column: 8 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ostream', 
+                   Line: 685, Column: 25 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '14'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/locale_facets.h', 
+                   Line: 877, Column: 6 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/locale_facets.h', 
+                   Line: 878, Column: 11 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/locale_facets.h', 
+                   Line: 879, Column: 8 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ostream', 
+                   Line: 685, Column: 25 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/locale_facets.h', 
+                   Line: 878, Column: 11 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ostream', 
+                   Line: 685, Column: 25 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '10'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: fabnacci.cpp, Line: 17, Column: 11 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '11'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/locale_facets.h', 
+                   Line: 877, Column: 6 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/locale_facets.h', 
+                   Line: 879, Column: 8 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: fabnacci.cpp, Line: 22, Column: 5 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '9'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: fabnacci.cpp, Line: 0, Column: 0 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: fabnacci.cpp, Line: 5, Column: 0 }
+Function:        main
+Args:
+  - NumInstructions: '106'
+  - String:          ' instructions in function'
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: fabnacci.cpp, Line: 0, Column: 0 }
+Function:        _GLOBAL__sub_I_fabnacci.cpp
+Args:
+  - NumStackBytes:   '8'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: '/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/iostream', 
+                   Line: 74, Column: 25 }
+Function:        _GLOBAL__sub_I_fabnacci.cpp
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '10'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: fabnacci.cpp, Line: 0, Column: 0 }
+Function:        _GLOBAL__sub_I_fabnacci.cpp
+Args:
+  - NumInstructions: '10'
+  - String:          ' instructions in function'
+...
