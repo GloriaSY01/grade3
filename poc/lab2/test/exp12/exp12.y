@@ -6,7 +6,7 @@
 #include<ctype.h>
 #ifndef YYSTYPE
 #define YYSTYPE double
-//我们要翻译的结果是表达式值,所以全局变量类型是double
+//我们要翻译的结果是表达式值,所以类型是double
 #endif
 int yylex();
 extern int yyparse();
@@ -25,7 +25,7 @@ void yyerror(const char*s);
 
 %%
 lines : lines expr ';' {printf("%f\n",$2);}//使用分号替换lines产生式中的\n
-      | lines ';'
+      | lines '\n'
       |
       ;
 // 

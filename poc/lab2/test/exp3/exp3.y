@@ -32,7 +32,7 @@ void yyerror(const char*s);
 
 %%
 lines : lines expr ';' {printf("%s\n",$2);}//使用分号替换lines产生式中的\n
-      | lines '\n'
+      | lines ';'
       |
       ;
       //a operator b -> a

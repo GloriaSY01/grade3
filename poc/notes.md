@@ -325,3 +325,5 @@ CFG+语义规则→语法制导定义
 
 synthesized attributes：节点属性值由其孩子节点属性值所决定
 自底向上（bottom-up）计算
+
+### 2.4 语法分析
